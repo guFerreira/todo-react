@@ -1,0 +1,50 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 8px;
+    background-color: #363636;
+    color: white;
+}
+
+.titleForm{
+    width: 100%;
+}
+
+.formInputs{
+    flex-direction: row;
+}
+
+.textInput{
+    background-color: #666666;
+    color: white;
+    border: 1px solid transparent;
+    height: 40px;
+    border-radius: 8px;
+}
+.textInput:focus{
+    outline: none !important;
+    border:1px solid #FFBD4C;
+}
+
+.buttonForm {
+    background-color: white;
+    height: 40px;
+    color: #363636;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.buttonForm:hover{
+    background-color:#FFBD4C;
+    height: 40px;
+    color: #363636;
+
+
+}
